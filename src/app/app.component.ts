@@ -11,6 +11,6 @@ export class AppComponent {
   title = 'app';
 
   constructor(private router: Router) {
-    mooaPlatform.handleRouterUpdate(this.router, 'app-mooa-boilerplate');
+    mooaPlatform.handleRouterUpdate(this.router, 'mooa-boilerplate');
   }
 }
